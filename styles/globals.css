@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#LuckiestGuy{
+  font-family: 'Luckiest Guy', cursive;
+}
+#Ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#parallex_1{
+  background-image: url('../components/assets/bg_03.jpeg');
+  background-position: center;
+}
+
+@media(max-width:720px){
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
