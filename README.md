@@ -1,22 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🏠 Property Listing Platform
 
-## Getting Started
+A full-stack real estate web application built using **Next.js** where **admins** can list properties directly and **users** can submit properties for approval. The platform ensures quality control through an admin approval workflow.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🔥 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🏢 Admin dashboard to **create, update, delete, and verify** property listings
+- 👤 Users can submit their properties, which go **live only after admin approval**
+- 🔍 Browse all listed properties with details
+- ✅ Role-based access: Admin vs User
+- 🌐 Fully responsive design for both desktop and mobile
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🛠 Tech Stack
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+| Technology | Role |
+|------------|------|
+| **Next.js** | Full-stack framework (frontend + backend) |
+| **MongoDB** | Database for storing property and user data |
+| **Tailwind CSS** | Styling and responsive design |
+| **Mongoose** *(optional)* | ODM for MongoDB |
+| **Vercel** *(optional)* | Deployment |
 
 ## Learn More
 
