@@ -67,7 +67,7 @@ const Footer = () => {
     <p className="flex justify-center whitespace-nowrap">Copyright &copy; {currentYear} <Link href="/" className="hover:underline pl-1"> Warehouse Servicez</Link></p>
     <p className='text-center'>All Rights Reserved.</p>
     </div>
-    <div className="flex justify-center gap-2"><span>Developed by </span><a target='_blank' rel="noreferrer"  href="https://arterns.in" className="hover:underline">Arterns Technologies Pvt Ltd</a> </div>
+    <div className="flex justify-center gap-2"><span>Developed by </span><a target='_blank' rel="noreferrer"  href="https://www.manishbailwal.com/" className="hover:underline">Manish Bailwal</a> </div>
 
 </footer>
 </div>
